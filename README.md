@@ -23,7 +23,7 @@ Projekt bol implementovaný v **Python 3.10.11**. Pre spracovanie dát, modelova
 | `torch` | 2.6.0 | Tréning neurónových sietí |
 | `transformers` | 4.50.1 | Predpripravené modely BERT a RoBERTa |
 | `sklearn` | 1.6.1 | Vyhodnocovanie modelov, metriky |
-| `datasets` | - | Načítavanie dátových množín z HuggingFace |
-| `unicodedata` | - | Normalizácia unicode textu |
-| `re` | - | Regulárne výrazy |
-| `requests` | - | Práca s HTTP požiadavkami |
+| `datasets` | 2.14.5 | Načítavanie dátových množín z HuggingFace |
+| `unicodedata` | 2.31.0 | Normalizácia unicode textu |
+| `re` | 3.10.11 | Regulárne výrazy |
+| `requests` | 3.10.11 | Práca s HTTP požiadavkami |
