@@ -7,7 +7,23 @@ Tento repozitár obsahuje kód k bakalárskej práci, ktorá sa zameriava na det
 - `SlovakBERT` (gerulata/slovakbert)
 
 ##  Datasety
-- `Toxic comments in Slovak social networks` (vlastná anotácia)
+- `Toxic comments in Slovak social networks` 
 - `TUKE-KEMT/toxic-sk`
 
+##  Použité technológie a knižnice
 
+Projekt bol implementovaný v **Python 3.10.11**. Pre spracovanie dát, modelovanie a vizualizáciu boli použité nasledujúce knižnice:
+
+| Knižnica | Verzia | Popis |
+|----------|--------|-------|
+| `pandas` | 2.2.3 | Práca s dátami |
+| `numpy` | 1.24.3 | Numerické výpočty |
+| `matplotlib` | 3.10.1 | Vizualizácia grafov |
+| `seaborn` | 0.13.2 | Vizualizácia (matica zámen a pod.) |
+| `torch` | 2.6.0 | Tréning neurónových sietí |
+| `transformers` | 4.50.1 | Predpripravené modely BERT a RoBERTa |
+| `sklearn` | 1.6.1 | Vyhodnocovanie modelov, metriky |
+| `datasets` | - | Načítavanie dátových množín z HuggingFace |
+| `unicodedata` | - | Normalizácia unicode textu |
+| `re` | - | Regulárne výrazy |
+| `requests` | - | Práca s HTTP požiadavkami |
